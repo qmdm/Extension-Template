@@ -1,13 +1,17 @@
 {
   "$schema": "schema/schema.json",
-  "id": "com.rk.demo",
+  "id": "rk.qmdm.plugin",
   "name": "Extension template",
-  "mainClass": "com.rk.demo.Main",
+  "mainClass": "rk.qmdm.plugin.Main",
   "version": "1.0.0",
   "description": "A demo extension template project",
   "author": {
-    "displayName": "Unknown"
+    "displayName": "qmdm",
+    "github": "qmdm"
   },
+  "license": "MIT",
+  "tags": ["template", "demo"],
   "minAppVersion": 95,
-  "repository": "https://github.com/Xed-Editor/Extension-Template"
+  "maxAppVersion": null,
+  "repository": "https://github.com/qmdm/Extension-Template"
 }
